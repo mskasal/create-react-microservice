@@ -2669,6 +2669,14 @@ cosmiconfig@^4.0.0:
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
 
+cosmiconfig@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.5.tgz#a809e3c2306891ce17ab70359dc8bdf661fe2cd0"
+  dependencies:
+    is-directory "^0.3.1"
+    js-yaml "^3.9.0"
+    parse-json "^4.0.0"
+
 create-any-cli@1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/create-any-cli/-/create-any-cli-1.3.1.tgz#ffd1ded2fa84efa25b5664264746b423707b6ed9"
@@ -4176,7 +4184,7 @@ find-cache-dir@^1.0.0:
     make-dir "^1.0.0"
     pkg-dir "^2.0.0"
 
-find-config-up@1.1.0, find-config-up@^1.1.0:
+find-config-up@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/find-config-up/-/find-config-up-1.1.0.tgz#4df7a674425ba7f55653a9026bd44e04b2eb7087"
   dependencies:
@@ -4242,16 +4250,17 @@ flow-copy-source@^1.2.1:
     kefir "^3.7.3"
     yargs "^8.0.2"
 
-flow-mono-cli@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/flow-mono-cli/-/flow-mono-cli-1.3.1.tgz#13526b285a2ea98f646945f3e41de5f096f1115b"
+flow-mono-cli@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/flow-mono-cli/-/flow-mono-cli-1.3.3.tgz#fdf400ec02650c08f0a1d8b787981a39aef28e5c"
   dependencies:
     commander "2.15.1"
+    cosmiconfig "^5.0.5"
     execa "0.10.0"
-    find-config-up "1.1.0"
     find-up "2.1.0"
     glob "7.1.2"
-    inquirer "5.1.0"
+    inquirer "5.2.0"
+    lodash.merge "^4.6.1"
     log-fancy "1.3.2"
     make-symlinks "1.1.0"
     micromatch "3.1.10"
@@ -5341,9 +5350,9 @@ inquirer@3.3.0, inquirer@^3.0.6, inquirer@^3.2.2, inquirer@^3.3.0:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-inquirer@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-5.1.0.tgz#19da508931892328abbbdd4c477f1efc65abfd67"
+inquirer@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-5.2.0.tgz#db350c2b73daca77ff1243962e9f22f099685726"
   dependencies:
     ansi-escapes "^3.0.0"
     chalk "^2.0.0"
@@ -6703,6 +6712,10 @@ lodash.ismatch@^4.4.0:
 lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
+
+lodash.merge@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
 
 lodash.noop@^3.0.1:
   version "3.0.1"
